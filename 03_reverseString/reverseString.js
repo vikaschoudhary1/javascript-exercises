@@ -1,5 +1,5 @@
-const reverseString = (str) => {
-    const arrIn = str.split('');
+const reverseString = (string) => {
+    const arrIn = string.split('');
     const arrOut = [];
     for (let i = 0; i < arrIn.length; i++){
         arrOut.unshift(arrIn[i]);

@@ -1,13 +1,9 @@
 const ftoc = function(temp) {
-  let newTemp = (temp - 32)* 5/9;
-  newTemp = +newTemp.toFixed(1);
-  return newTemp;
+  return +((temp - 32)* 5/9).toFixed(1);
 };
 
 const ctof = function(temp) {
-  let newTemp = (temp * 9/5) + 32;
-  newTemp = +newTemp.toFixed(1);
-  return newTemp;
+  return +((temp * 9/5) + 32).toFixed(1);
 };
 
 // Do not edit below this line

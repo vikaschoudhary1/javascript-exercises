@@ -1,8 +1,8 @@
-const repeatString = (str, n) => {
-   if(n >= 0){ 
+const repeatString = (words, times) => {
+   if(times >= 0){ 
         let arrStr = [];
-        for (let i = 0; i < n; i++){
-            arrStr.push(str);
+        for (let i = 0; i < times; i++){
+            arrStr.push(words);
         }
         return arrStr.join('');
    } else { return 'ERROR'}
